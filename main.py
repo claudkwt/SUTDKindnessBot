@@ -5,7 +5,7 @@ import logging
 import random
 import re
 
-token = '1043722139:AAHck0sjOot57IyKjYax5BW8CRv7Hh6TFBo'
+token = 'insert token http api'
 
 logger = logging.getLogger(__name__)
 CHECK, WAIT = range(2)
