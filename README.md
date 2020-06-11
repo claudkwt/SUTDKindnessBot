@@ -5,8 +5,10 @@ Bot allows user to input a quote that saves to Quotes.txt. Bot also allows user 
 ## API
 ApI used: Python-Telegram-Bot <br />
 Bot incorporates two Handlers  <br />
-1. MessageHandler <br />
-2. ConversationHandler  <br />
+1. MessageHandler  - process and obtain user's text input after a specific command <br />
+  - called upon by */share telegram command 
+2. ConversationHandler  - holds a conversation with user and send resources <br />
+  - utilise inbuilt keyboard with keywords like videos, musics, platforms etc. to ensure bot-user communicatons
 
 
 ## Installation: 
